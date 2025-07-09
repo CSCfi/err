@@ -26,8 +26,10 @@ Reduce an image’s color depth (e.g., from 256 to 16 levels per channel) and ob
 
 ### 🚀 How to Run
 
-```bash
+
 python quant_image.py
+
+
 
 
 Make sure your_image.jpg is present or modify the script to use another image.
