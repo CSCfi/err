@@ -1,16 +1,30 @@
+# Quantization Techniques in Python
 
+This repository demonstrates two practical applications of **quantization**:
 
-# Word count example
+1. **Image Quantization**: Reducing color depth of an image.
+2. **Model Quantization**: Compressing a TensorFlow model using TFLite for edge deployment.
 
-These programs will count words in a given text, plot a bar chart of the 10
-most common words, and test [Zipf's
-law](https://en.wikipedia.org/wiki/Zipf%27s_law) on the two most common words.
+---
 
-- Inspired by and derived from https://hpc-carpentry.github.io/hpc-python/
-  which is distributed under
-  [Creative Commons Attribution license (CC-BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
-- Documentation: https://word-count.readthedocs.io
+## 📁 Files
 
-We use this example in two [CodeRefinery](https://coderefinery.org/) lessons:
-- https://coderefinery.github.io/reproducible-research/
-- https://coderefinery.github.io/documentation/
+| File            | Description                                               |
+|-----------------|-----------------------------------------------------------|
+| `quant_image.py`| Performs image color quantization from 256 to N levels.   |
+| `quant_model.py`| Applies post-training quantization to a Keras model.      |
+| `requirements.txt` | Required Python packages for running the scripts.      |
+| `results/`      | Contains output image from quantization.                 |
+
+---
+
+## 🧪 1. Image Quantization
+
+### 📌 Purpose
+
+Reduce an image’s color depth (e.g., from 256 to 16 levels per channel) and observe visual tradeoffs.
+
+### 🚀 How to Run
+
+```bash
+python quant_image.py
