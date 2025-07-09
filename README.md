@@ -35,18 +35,17 @@ Make sure your_image.jpg is present or modify the script to use another image.
 quantized_output.png
 
 
-🤖 2. Model Quantization (TensorFlow)
+##  🤖 2. Model Quantization (TensorFlow)
 
-📌 Purpose
+### 📌 Purpose
 Use TensorFlow Lite to compress a Keras model for edge devices.
 
-🚀 How to Run
+###  🚀 How to Run
 python quant_model.py
-💾 Output
-The script saves a quantized .tflite model:
 
-model_quant.tflite
-📦 Installation
+
+
+## 📦 Installation
 
 Install dependencies:
 
@@ -58,7 +57,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 
 
-📚 References
+## 📚 References
 
 TensorFlow Lite Quantization
 Matplotlib
